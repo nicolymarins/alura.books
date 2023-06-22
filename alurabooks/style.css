@@ -1,12 +1,30 @@
 :root{
-    --cor-de-fundo:#EBECEE;
+    --cor-de-fundo:#eef1f5;
 }
 body{
     background-color: var(--cor-de-fundo);
 }
-h1{
-background-color: rgb(247, 7, 7);
-text-align: center;
-font-size: 80px;
-color: black;
+.cabeçalho-menu-hamburguer{
+    width: 24px;
+height: 24px;
+background-image: url(./img/menu.png);
+background-repeat: no-repeat;
+background-position: center;
+display: inline-block;
+}
+.cabeçalho{
+background-color: rgb(221, 94, 247);
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.container_imagem{
+    padding: 1em;
+    margin: 1em;
+    width: 3em;
 }
