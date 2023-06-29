@@ -1,5 +1,8 @@
 :root{
-    --cor-de-fundo:#eef1f5;
+    --cor-de-fundo:#EBECEE;
+    --branco: #FFFFFF;
+    --laranja:#EB9800;
+    --azul-degrade: linear-gradient(94.54deg, #002F52 35.49%, #326589 165.37%);
 }
 body{
     background-color: var(--cor-de-fundo);
@@ -27,4 +30,13 @@ position: relative;
     padding: 1em;
     margin: 1em;
     width: 3em;
+}
+.container_botão-checked ~.lista-menu {
+    display: block;
+}
+.lista-menu {
+    display: inline-block;
+    padding: absolute;
+    top:100%;
+    width: 20vw;
 }
